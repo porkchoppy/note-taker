@@ -3,11 +3,13 @@ const fs = require("fs");
 const router = require('express').Router();
 const { v4: uuidv4 } = require('uuid');
 
+const {deleteNote} = require("../lib/utils")
+
 router.get("/notes", (req, res) => {
   res.json(db);
 });
     
-router.post('/api/notes', (req, res) => {
+router.post('/notes', (req, res) => {
   const myNewNote = req.body;
     myNewNote.id = uuidv4(myNewNote.id);
 
@@ -22,9 +24,12 @@ router.post('/api/notes', (req, res) => {
 });
 
 router.delete('/notes/:id', (req, res) => {
-  const params = req.params.id
-  updateDb(params, notes);
-  res.redirect("");
+  const noteId = req.params.id
+  const result = deleteNote(noteId, db)
+  if (!result) {
+    res.sendStatus(404)
+  }
+    res.sendStatus(204)
 });
     
 module.exports = router;
