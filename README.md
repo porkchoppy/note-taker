@@ -6,15 +6,9 @@ This application allows the user to input notes that can be saved and deleted as
 
 ## Usage
 
-Here you can see the projects being displayed on the site itself. 
+Here you can see the notes being made, saved, and deleted, as well as how the notes stay when the page is refreshed. 
 
-![projects screenshot](assets/images/screenshot-2.png)
-
-Along with the accompanying HTML and CSS for that section of the site. 
-
-![html screenshot](assets/images/screenshot-html.png)
-
-![css screenshot](assets/images/screenshot-css.png)
+![projects screenshot](assets/images/notes-screencast.webm)
 
 ## Credits
 
@@ -22,4 +16,4 @@ I received direction on the project from Andrew Tirpok and help with debugging t
 
 ## Link to live site
 
-https://porkchoppy.github.io/christin-carter-portfolio
+https://nameless-fjord-05918.herokuapp.com/
