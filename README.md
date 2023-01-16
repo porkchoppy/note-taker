@@ -2,7 +2,7 @@
 
 ## Description
 
-This application allows the user to input notes that can be saved and deleted as necessary. It was created using starter code that contained the front end user interface, while the backend code was written to facilitate the GET, POST, and DELETE routes enabling application functionality. This application demonstrates knowledge learned about Express.js.
+This application allows the user to input notes that can be saved and deleted as necessary. It was created using starter code that contained the front end user interface, while the backend code was written to facilitate the GET, POST, and DELETE routes enabling application functionality. This application demonstrates learned skills regarding Express.js.
 
 ## Usage
 
