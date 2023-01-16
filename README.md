@@ -8,7 +8,7 @@ This application allows the user to input notes that can be saved and deleted as
 
 Here you can see the notes being made, saved, and deleted, as well as how the notes stay when the page is refreshed. 
 
-![projects screenshot](assets/images/notes-screencast.webm)
+![notes-gif](public/assets/images/notes-screencast.gif)
 
 ## Credits
 
